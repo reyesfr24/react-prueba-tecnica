@@ -1,0 +1,22 @@
+/* Centrar elementos en columna con flex */
+main {
+    display:flex;
+    flex-direction: column;
+    place-items: center;
+    max-width: 880px;
+    margin: 0 auto;
+    font-family: system-ui;
+}
+
+/* Centrar los elementos en fila, necesario envolver los elementos en un section */
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+section img {
+    max-width: 320px;
+    height: auto;
+}
