@@ -9,7 +9,7 @@ main {
 }
 
 /* Centrar los elementos en fila, necesario envolver los elementos en un section */
-section {
+/* section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,4 +20,4 @@ section {
 section img {
     max-width: 320px;
     height: auto;
-}
+} */
